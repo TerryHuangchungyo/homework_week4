@@ -30,7 +30,7 @@ else
     | <a href="secret.php">會員專用頁</a></td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#CCCCCC"><?php echo "Welcome! " . $sUserName ?> </td>
+    <td align="center" bgcolor="#CCCCCC"><?php echo "Welcome! " . htmlspecialchars($sUserName) ?> </td>
   </tr>
 </table>
 
